@@ -1,0 +1,70 @@
+input {
+    outline: none !important;
+}
+input.signal {
+    background-color: #462878 !important;
+}
+input.equal {
+    background-color:  #7F45E2 !important;  
+}
+input.btn{
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    color: #EBEBEB;
+    background-color: #272236;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    border: none;
+
+}
+input.cal {
+    width: 288px;
+    height: 120px;
+    color: #EBEBEB;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    font-size: 35px;
+    padding-right: 50px ;
+    text-align: right;
+}
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #807ECE;
+    width: auto;
+    height: 600px;
+}
+
+div.calculator form {
+    display: flex;
+    flex-direction: column;
+    background-color: #2D2A37;
+    border-radius: 40px;
+    height: 566px;
+    width: 356px;
+    gap: 12px;
+}
+
+div.calculator form div.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+div.calculator form div.row .row-in1  {
+    display: flex
+}
+
+#btn0 {
+    flex: 2;
+    width: 110px;
+    border-radius: 20px;
+}
+div.calculator form div.row .row-in1 .btn {
+    flex: 1;
+    margin: 0 6px;
+}
